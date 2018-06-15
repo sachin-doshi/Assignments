@@ -1,7 +1,7 @@
 # Assignments
 API for adding and looking up Assignments
 
-*******API KEY to access API is qweqweqa123jk
+<b>API KEY to access API is qweqweqa123jk</b>
 
 API Application can be brought up with below command, which will start Node server and Mongo db in a Docker Container. 
   
