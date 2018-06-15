@@ -9,6 +9,6 @@ Once Docker containers are running,
 
 API will be exposed on URL http://localhost:3000/Health
 
-Swagger UI tool for testing will be available on, 
+Swagger UI tool for API reference and testing will be available on, 
 
 http://localhost:3000/api-docs/
