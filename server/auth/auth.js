@@ -10,7 +10,7 @@ exports.verifyToken = function() {
     const api_Key = req.query.api_key ;
 
     if (!api_Key) {
-      res.status(400).send('You need to send an key in header to access an API!');
+      res.status(400).send('You need to send an api key along with your query. e.g http://url?api_key={your_api_key}');
       return;
     }
 
