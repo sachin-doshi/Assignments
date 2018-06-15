@@ -1,0 +1,18 @@
+version: "2"
+services:
+  web:
+    environment:
+      - NODE_ENV=testing
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongoDockerLink
+    volumes:
+      - .:/usr/src/app
+    links:
+      - mongoDockerLink
+  mongoDockerLink:
+    image: mongo
+    ports:
+    - "27017:27017"
