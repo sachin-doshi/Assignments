@@ -1,7 +1,7 @@
 # Assignments
 API for adding and looking up Assignments
 
-API Application can be brought up with below command, which will start the Node server and mongo db container 
+API Application can be brought up with below command, which will start Node server and Mongo db in a Docker Container. 
   
 <b>docker-compose up </b>
 
