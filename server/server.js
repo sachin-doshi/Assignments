@@ -81,7 +81,7 @@ app.get("/health", function(req, res) {
 // // setup the api
 // swagger definition
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-app.all("*", verifyToken());
+//app.all("*", verifyToken());
 app.use("/api/v1", api);
 // app.use('/api', api);
 // app.use('/auth', auth);
