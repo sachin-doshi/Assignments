@@ -1,3 +1,4 @@
+var seq=require('./seq_temp_test');
 var config = require('./server/config/config');
 var app = require('./server/server.js');
 var logger= require('./server/util/logger');
